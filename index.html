@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>speed typing Test</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Slab:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <main>
+ <div class="container"> 
+    <div class="stats">
+        <h1>SPEED TYPING TEST </h1>
+        <p>Time: <span id="timer">0s</span></p>
+        <p>Mistakes: <span id="mistakes">0</span></p>
+
+    </div>
+    <div id="quote" onmousedown="return false"
+    onselectstart="return false" >
+</div>
+
+<textarea  id="quote-input" placeholder="Type here when the test starts..." rows="3"></textarea>
+<button id="start-test" onclick="startTest()">Start Test</button>
+<button id="stop-test" onclick="displayResult()">Stop Test</button>
+<div class="result">
+    <h3>Result</h3>
+    <div class="wrapper">
+        <p>Accuracy: <span id="accuracy"></span></p>
+        <p>Speed: <span id="wpm"></span></p>
+   
+</div>
+</div>
+</div>
+</main>
+<footer class="footer">
+    <div class class="container">
+        <div class = "row" >
+            <div class="footer-col">
+                <h4>Founder</h4>
+                <ul>
+                    <li> <a href="aboutus.html" target="blank">About us</a></li>
+                    <li> <a href="https://www.speedtypingonline.com/privacy-policy" target="blank">Privacy Policy</a></li>
+                   
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Get Help </h4>
+                <ul>
+                    <li> <a href="https://www.speedtypingonline.com/FAQ" target="blank">FAQ</a></li>
+                    <li> <a href="#">+9184395739/+9167947949</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                 <div class="social-links">
+                     <a href="#"><i class="fab fa-facebook-f"></i></a>
+                     <a href="#"><i class="fab fa-twitter"></i></a>
+                     <a href="#"><i class="fab fa-linkedin"></i></a>
+                     <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+            </div>
+        </div>
+     </div> 
+</footer>
+<!-- javascript -->
+<script src="script.js"></script>
+</body>
+</html> 
